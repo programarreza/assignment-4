@@ -6,25 +6,23 @@
 
 	return number * number * number;
 }
-console.log(cubeNumber(3));  */
+console.log(cubeNumber(4));  */
 
 
 // problem 2
-/* function matchFinder(string1, string2) {
-	if(typeof string1 !== 'string' || typeof string2 !== 'string'){
-		return  "Please enter a string ";
-	}
+// function matchFinder(string1, string2) {
+// 	if(typeof string1 !== 'string' || typeof string2 !== 'string'){
+// 		return  "Please enter a string ";
+// 	}
 
-	if(string1.indexOf(string2) !== -1){
-		return true;
-	}
-	else{
-		return false;
-	}
-}
-console.log(matchFinder("John Doe", "ohn")); */
-
-
+// 	if(string1.indexOf(string2) !== -1){
+// 		return true;
+// 	}
+// 	else{
+// 		return false;
+// 	}
+// }
+// console.log(matchFinder("John Doe", "ohn"));
 
 
 
@@ -53,39 +51,37 @@ console.log(sortMaker(array)); */
 
 
 // problem 4
-// function findAddress(obj) {
-// 	const house = obj.house || "__";
-// 	const street = obj.street || "__";
-// 	const society = obj.society || "__";
+/* function findAddress(obj) {
+	const house = obj.house || "__";
+	const street = obj.street || "__";
+	const society = obj.society || "__";
 
-// 	const result = street + "," + house + "," + society;
-// 	return result;
-// }
-// const obj = {
-// 	street: 10,
-// 	house: "15A",
-// 	society: "Earth Perfect"
-// }
-// console.log(findAddress(obj));
+	const result = street + "," + house + "," + society;
+	return result;
+}
+const obj = {
+	street: 10,
+	house: "15A",
+	society: "Earth Perfect"
+}
+console.log(findAddress(obj)); */
 
 
 
 // problem 5
-function canPay(changeArray, totalDue) {
-	// let sum = 0;
-	// for(let i = 0; i < changeArray.length; i++){
-	// 	sum += changeArray[i];
-	// 	console.log(sum);
-
-	// 	// if(sum >= totalDue){
-	// 	// 	return true;
-	// 	// }else{
-	// 	// 	return false;
-	// 	// }
-	// }
-	// return sum;
-
+/* function canPay(changeArray, totalDue) {
+	if(changeArray.length === 0) {
+		return "Please provide a number";
+	}
+	let sum = 0;
+	for(let i = 0; i < changeArray.length; i++) {
+		sum += changeArray[i];
+	}
+	if(sum >=  totalDue){
+		return true;
+	}else{
+		return false;
+	}
 }
-
 let array = [1, 5, 5];
-console.log(canPay(array, 10));
+console.log(canPay(array, 10)); */
